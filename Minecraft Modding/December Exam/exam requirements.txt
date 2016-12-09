@@ -1,0 +1,20 @@
+Create mod that has the following. Do not add code that serves no purpose. I will take marks away for unused imports and code (i.e., no blind copy and paste please).
+ 
+Create a package called exam.
+
+1. Class called ExamBlock - inherits from Block and uses material sand
+2. Class called ExamItem - inherits from ItemSword with ToolMaterial IRON
+3. Mod class called ExamMod - registers and instantiates ExamBlock and ExamItem
+4. Assets in correct resource packages and make sure code points to them
+5. ExamItem on right click should check world time and set to 0 when > 5000 else 14000
+6. ExamItem on right click should spawn a lightning bolt
+7. ExamItem on right click should spawn an ender pearl that transports you
+8. ExamBlock placed, time should be set to night and block should glow (sunlight)
+9. ExamBlock destroyed, 3 wolves attack player with custom name "attack wolf"
+10. ExamBlock destroyed, also spawn a zombie named "Ezekial Poopscraper"
+
+Bonus +1 - make each attack wolf have a unique number (e.g., Attack Wolf 0)
+
+
+
+
