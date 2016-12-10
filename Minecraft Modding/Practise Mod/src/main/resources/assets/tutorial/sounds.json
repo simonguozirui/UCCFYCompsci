@@ -1,0 +1,9 @@
+{
+	"test":{
+		"category":"ambient",
+		"sounds":[{
+			name:"test",
+		"stream":true
+		}] 
+	}
+}
