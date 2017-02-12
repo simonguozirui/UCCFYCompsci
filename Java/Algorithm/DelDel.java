@@ -16,7 +16,7 @@ import java.util.Scanner;
 
 public class DelDel {
 	/**
-	*deldel-removes
+	*deldel-removes "del"
 	*@param - str - full string to substring
 	*/
 	public static String delDel(String str){
