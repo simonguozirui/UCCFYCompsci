@@ -4,6 +4,7 @@ import java.io.FileNotFoundException;
 
 //search for "TTATT" DNA sequence
 
+
 public class Salmonella {
 	public static boolean findpattern(String pattern, Scanner scanner){
 		boolean returnValue = false;
@@ -16,12 +17,15 @@ public class Salmonella {
 	}
 
 	public static void main(String[] args) {
+		final long startTime = System.currentTimeMillis();
 		try{
-			Scanner myscan = new Scanner(new File("data/salmonella-complete.txt"));
+			Scanner myscan = new Scanner(new File("data/salmonella-test.txt"));
 			boolean result = findpattern("TTATT",myscan);
 			System.out.println(result);
 		} catch(FileNotFoundException e){
 			System.out.println("Bioformatics data not avaliable");
 		}
+		final long endTime = System.currentTimeMillis();
+		System.out.println("Total execution time: " + (endTime - startTime) + " ms");
 	}
 }
