@@ -1,4 +1,4 @@
-<html>
+<!--<html>
 	<style>
 		body{
 			background-color: lightblue;
@@ -18,4 +18,21 @@
 		<button type="button" onclick="myfunction()">click me</button>
 	</body>
 
+</html>-->
+
+<html>
+	<style>
+		body{
+			text-align: center;
+		}
+		
+	</style>
+	<script>
+		function myfunction(){
+			var myelement = document.getElementById("text");
+			myelement.innerHTML = "bye";
+		}
+	</script>
+	<p id="text">hi</p>
+	<button type="button" onclick="myfunction()">click</button>
 </html>
